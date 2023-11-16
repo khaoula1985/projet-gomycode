@@ -1,0 +1,256 @@
+[
+  {
+    "name": "Luxury Grand Hotel",
+    "city": "New York",
+    "description": "A luxurious hotel with a breathtaking view of the city skyline.",
+    "address": "123 Main Street, New York, NY",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fHww",
+    "rooms": [
+      {
+        "roomNumber": "101",
+        "maxOccupancy": 2,
+        "pricePerNight": 250,
+        "unavailableDates": ["2023-05-10", "2023-06-15"]
+      },
+      {
+        "roomNumber": "102",
+        "maxOccupancy": 3,
+        "pricePerNight": 300,
+        "unavailableDates": ["2023-07-20", "2023-08-05"]
+      }
+    ],
+    "distance": "2.5"
+  },
+  {
+    "name": "Elegant City Hotel",
+    "city": "Paris",
+    "description": "An elegant hotel located in the heart of Paris.",
+    "address": "456 Rue de la Paix, Paris",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fHww",
+    "rooms": [
+      {
+        "roomNumber": "201",
+        "maxOccupancy": 2,
+        "pricePerNight": 220,
+        "unavailableDates": ["2023-06-20", "2023-07-30"]
+      },
+      {
+        "roomNumber": "202",
+        "maxOccupancy": 2,
+        "pricePerNight": 190,
+        "unavailableDates": ["2023-08-10", "2023-09-05"]
+      }
+    ],
+    "distance": "1.2"
+  },
+  {
+    "name": "Seaside Resort",
+    "city": "Miami",
+    "description": "A beautiful seaside resort with stunning ocean views.",
+    "address": "789 Ocean Drive, Miami, FL",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fHww",
+    "rooms": [
+      {
+        "roomNumber": "301",
+        "maxOccupancy": 4,
+        "pricePerNight": 350,
+        "unavailableDates": ["2023-07-15", "2023-08-20"]
+      },
+      {
+        "roomNumber": "302",
+        "maxOccupancy": 2,
+        "pricePerNight": 280,
+        "unavailableDates": ["2023-09-10", "2023-10-05"]
+      }
+    ],
+    "distance": "0.5"
+  },
+  {
+    "name": "Mountain Retreat Lodge",
+    "city": "Aspen",
+    "description": "A cozy lodge nestled in the Rocky Mountains of Aspen.",
+    "address": "123 Mountain Road, Aspen, CO",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fHww",
+    "rooms": [
+      {
+        "roomNumber": "401",
+        "maxOccupancy": 2,
+        "pricePerNight": 180,
+        "unavailableDates": ["2023-02-25", "2023-03-10"]
+      },
+      {
+        "roomNumber": "402",
+        "maxOccupancy": 4,
+        "pricePerNight": 270,
+        "unavailableDates": ["2023-04-15", "2023-05-20"]
+      }
+    ],
+    "distance": "3.0"
+  },
+  {
+    "name": "Historic Mansion Hotel",
+    "city": "Charleston",
+    "description": "A historic mansion hotel with timeless charm and elegance.",
+    "address": "567 Main Street, Charleston, SC",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fHww",
+    "rooms": [
+      {
+        "roomNumber": "501",
+        "maxOccupancy": 2,
+        "pricePerNight": 240,
+        "unavailableDates": ["2023-06-10", "2023-07-25"]
+      },
+      {
+        "roomNumber": "502",
+        "maxOccupancy": 2,
+        "pricePerNight": 210,
+        "unavailableDates": ["2023-08-05", "2023-09-15"]
+      }
+    ],
+    "distance": "1.8"
+  },
+  {
+    "name": "Tropical Paradise Resort",
+    "city": "Bali",
+    "description": "A tropical paradise resort with lush gardens and crystal-clear waters.",
+    "address": "789 Beach Road, Bali",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fHww",
+    "rooms": [
+      {
+        "roomNumber": "601",
+        "maxOccupancy": 2,
+        "pricePerNight": 260,
+        "unavailableDates": ["2023-08-15", "2023-09-30"]
+      },
+      {
+        "roomNumber": "602",
+        "maxOccupancy": 3,
+        "pricePerNight": 320,
+        "unavailableDates": ["2023-10-10", "2023-11-05"]
+      }
+    ],
+    "distance": "0.2"
+  },
+  {
+    "name": "Ski Chalet Retreat",
+    "city": "Chamonix",
+    "description": "A charming ski chalet in the French Alps with stunning mountain views.",
+    "address": "123 Ski Slope Lane, Chamonix, France",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fHww",
+    "rooms": [
+      {
+        "roomNumber": "701",
+        "maxOccupancy": 2,
+        "pricePerNight": 200,
+        "unavailableDates": ["2023-02-20", "2023-03-25"]
+      },
+      {
+        "roomNumber": "702",
+        "maxOccupancy": 4,
+        "pricePerNight": 280,
+        "unavailableDates": ["2023-04-05", "2023-05-10"]
+      }
+    ],
+    "distance": "2.7"
+  },
+  {
+    "name": "Riverside Lodge",
+    "city": "Montana",
+    "description": "A peaceful riverside lodge in the heart of Montana's wilderness.",
+    "address": "456 Riverfront Road, Montana",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fHww",
+    "rooms": [
+      {
+        "roomNumber": "801",
+        "maxOccupancy": 2,
+        "pricePerNight": 230,
+        "unavailableDates": ["2023-06-05", "2023-07-10"]
+      },
+      {
+        "roomNumber": "802",
+        "maxOccupancy": 2,
+        "pricePerNight": 190,
+        "unavailableDates": ["2023-08-15", "2023-09-20"]
+      }
+    ],
+    "distance": "1.5"
+  },
+  {
+    "name": "Desert Oasis Resort",
+    "city": "Dubai",
+    "description": "A luxurious desert oasis resort with stunning desert views.",
+    "address": "789 Desert Road, Dubai",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fHww",
+    "rooms": [
+      {
+        "roomNumber": "901",
+        "maxOccupancy": 2,
+        "pricePerNight": 280,
+        "unavailableDates": ["2023-08-10", "2023-09-25"]
+      },
+      {
+        "roomNumber": "902",
+        "maxOccupancy": 3,
+        "pricePerNight": 340,
+        "unavailableDates": ["2023-10-05", "2023-11-10"]
+      }
+    ],
+    "distance": "0.8"
+  },
+  {
+    "name": "Lakeside Cabin Retreat",
+    "city": "Lake Tahoe",
+    "description": "A cozy lakeside cabin retreat in the picturesque Lake Tahoe region.",
+    "address": "123 Lakefront Drive, Lake Tahoe, CA",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fHww",
+    "rooms": [
+      {
+        "roomNumber": "1001",
+        "maxOccupancy": 2,
+        "pricePerNight": 220,
+        "unavailableDates": ["2023-06-10", "2023-07-20"]
+      },
+      {
+        "roomNumber": "1002",
+        "maxOccupancy": 4,
+        "pricePerNight": 300,
+        "unavailableDates": ["2023-08-05", "2023-09-15"]
+      }
+    ],
+    "distance": "0.3"
+  },
+  {
+    "name": "Historic City Inn",
+    "city": "Boston",
+    "description": "A historic city inn with a rich heritage and elegant decor.",
+    "address": "456 Historic Street, Boston, MA",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fHww",
+    "rooms": [
+      {
+        "roomNumber": "1101",
+        "maxOccupancy": 2,
+        "pricePerNight": 240,
+        "unavailableDates": ["2023-02-15", "2023-03-25"]
+      },
+      {
+        "roomNumber": "1102",
+        "maxOccupancy": 2,
+        "pricePerNight": 210,
+        "unavailableDates": ["2023-04-10", "2023-05-15"]
+      }
+    ],
+    "distance": "2.0"
+  }
+]
+ 
